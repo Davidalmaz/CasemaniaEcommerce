@@ -1,0 +1,32 @@
+.signup-image {
+  background-image: url('../assets/IG-profile.png');
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.signup-form,
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-image {
+  background-image: url('../assets/logo-login.png');
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (max-width: 756px) {
+  .login-image,
+  .signup-image {
+    display: none;
+  }
+}
+

@@ -1,0 +1,8 @@
+use("casemania_ecommerce")
+
+// db.products.find({ _id: '646d2915cd8ba7ba5d985476'});
+db.products.find({_id: ObjectId("643f7c17559469d23cfdf8ba")});
+// db.products.insertOne({
+//   name:"Product 1",
+//   price: 1000
+// });

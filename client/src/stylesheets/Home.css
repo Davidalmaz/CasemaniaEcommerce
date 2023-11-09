@@ -1,0 +1,57 @@
+.category-title {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 30px;
+}
+
+.card {
+  border: none !important;
+  width: 15rem !important;
+}
+img.card-img-top.product-preview-img {
+  border-radius: 10px;
+}
+
+.category-title {
+  display: block;
+  margin: auto;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.category-title:hover {
+  transform: scale(1.05);
+  border: 2px solid #9C182F;
+}
+
+.home-banner img {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.sale-banner img {
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  border-radius: 5%;
+  overflow: hidden;
+  border: 2px solid #9C182F;
+}
+
+.background-home {
+  background-image: url('../assets/background-home.png');
+}
